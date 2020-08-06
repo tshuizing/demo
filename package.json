@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cy": "./node_modules/.bin/cypress open",
+    "cy:verify": "./node_modules/.bin/cypress verify",
     "cy:run": "./node_modules/.bin/cypress run",
     "cy:run:chrome": "./node_modules/.bin/cypress run --browser chrome --headless",
     "cy:run:chromium": "./node_modules/.bin/cypress run --browser chromium --headless"
